@@ -23,3 +23,42 @@ If based on contours we cannot tell it is X or O, we crop the cell (in step 5 we
 ![Step 6](steps_merged/step6.png)
 7. Find a winning combination and draw a line.
 ![Step 7](steps_merged/step7.png)
+# Structure
+├── README.md
+├── requirements.txt
+├── steps_merged - merged images of steps
+├── tic_images - images of games and the outputs produced by tic_tac_toe.py
+│   ├── tic_01.jpg
+│   ├── tic_01_output.png
+│   ├── tic_02.jpg
+│   ├── tic_02_output.png
+│   ├── tic_03.jpg
+│   ├── tic_03_output.png
+│   ├── tic_04.jpg
+│   ├── tic_04_output.png
+│   ├── tic_05.jpg
+│   ├── tic_05_output.png
+│   ├── tic_06.jpg
+│   ├── tic_06_output.png
+│   ├── tic_07.jpg
+│   ├── tic_07_output.png
+│   ├── tic_08.jpg
+│   ├── tic_08_output.png
+│   ├── tic_09.jpg
+│   ├── tic_09_output.png
+│   ├── tic_10.jpg
+│   ├── tic_10_output.png
+│   ├── tic_11.jpg
+│   ├── tic_11_output.png
+│   ├── tic_12.jpg
+│   └── tic_12_output.png
+├── tic_tac_toe.ipynb - Jupyter Notebook with the ability to look at results step by step
+└── tic_tac_toe.py - Python file with the same code as in Jupyter Notebook, but collected in a function
+
+# How to use
+You can use the `tic_tac_toe` function of `tic_tac_toe.py` to get the output image with a line drawn.  
+Example:
+```
+tic_tac_toe('tic_images/tic_12.jpg')
+```
+It will create the output image (with name `tic_12_output`) in the same folder. 
