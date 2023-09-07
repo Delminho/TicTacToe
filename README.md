@@ -24,9 +24,10 @@ If based on contours we cannot tell it is X or O, we crop the cell (in step 5 we
 7. Find a winning combination and draw a line.
 ![Step 7](steps_merged/step7.png)
 # Structure
-├── README.md
-├── requirements.txt
-├── steps_merged - merged images of steps
+```
+├── README.md  
+├── requirements.txt  
+├── steps_merged - merged images of steps  
 ├── tic_images - images of games and the outputs produced by tic_tac_toe.py
 │   ├── tic_01.jpg
 │   ├── tic_01_output.png
@@ -54,7 +55,7 @@ If based on contours we cannot tell it is X or O, we crop the cell (in step 5 we
 │   └── tic_12_output.png
 ├── tic_tac_toe.ipynb - Jupyter Notebook with the ability to look at results step by step
 └── tic_tac_toe.py - Python file with the same code as in Jupyter Notebook, but collected in a function
-
+```
 # How to use
 You can use the `tic_tac_toe` function of `tic_tac_toe.py` to get the output image with a line drawn.  
 Example:
